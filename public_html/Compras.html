@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Compras</title>
+  <link href='https://fonts.googleapis.com/css?family=Stoke' rel='stylesheet'>
+  <link href="css/Malhama.css" rel="stylesheet">
+  <script src="js/avascriptMalhama.js"></script>
+</head>
+<body>
+  <header>
+    <span class="imgLogo"><img src="Imagens/Malhama_Topo.png"></span>
+
+    <span class="ender"><address>Avenida Cuzco, 123<br/>
+      Tel:(21) 91234-5678<br/>
+      <a href="contato@malhama.com.br">contato@malhama.com.br</a></adress>
+    </span>
+
+  </header>
+  <nav class="menu">
+    <span class="botao"><a  href="Malhamahtml5.html">INICIAL</a></span>
+    <span class="botao"><a  href="Moletons.html">MOLETONS</a></span>
+    <span class="botao"><a  href="Camisas.html">CAMISETAS</a></span>
+    <span class="botao"><a  href="Compras.html">COMPRAS</a></span>
+  </nav>
+  <section>
+    <form name="formulario"action="Continuacao.html" method="post">
+      <fieldset>
+        <legend>Seleção de Produtos e Lista de Compras</legend>
+        <textarea id="txtLista"class="listaCompras" name="listaPedidos" readonly></textarea>
+        <fieldset >
+          <legend>Selecionado</legend>
+          <label class="colLabSelProd">Produto:
+            <select name="selProduto" class="colSelProd" onChange="selecProd(this);">
+              <option >---</option>
+              <optgroup label="Camisa">
+                <option value="Cam.Dudalina">Dudalina</option>
+                <option value="Cam.Hering">Hering</option>
+                <option value="Cam.Marfinnno">Marfinnno</option>
+              </optgroup>
+              <optgroup label="Moletom">
+                <option value="Mol.Hering">Hering</option>
+                <option value="Mol.Malwee">Malwee</option>
+                <option value="Mol.Ripping">Ripping</option>
+              </optgroup>
+            </select></label>
+            <label class="colLabSelProd" >Tamanho:
+              <Select name="selTamanho" class="colSelProd" onChange="selecTam(this);">
+                <option>---</option>
+                <option value="XP">Extra Pequena</option>
+                <option value="P">Pequena</option>
+                <option value="M">Media</option>
+                <option value="G">Grande</option>
+                <option value="XG">Extra Grande</option>
+                <option value="XXG">Extra Extra Grande</option>
+              </select></label>
+              <label class="colLabSelProd" >Cor:
+                <Select name="selCor" class="colSelProd" onChange="selecCor(this);">
+                  <option >---</option>
+                  <option value="Azul">Azul</option>
+                  <option value="Branco">Branco</option>
+                  <option value="Chumbo">Chumbo</option>
+                  <option value="Cinza">Cinza</option>
+                  <option value="Preto">Preto</option>
+                  <option value="Verde">Verde</option>
+                </select></label>
+
+                <input class="linhaProdSel" type="text" name="TXTdesc" id="txtDesc" readonly/>
+
+                  <input class="elemEsq" type="button" value="Comprar" onClick="CompraItem(this.form);"/>
+
+                  <label class="elemEsq" for="valor">R$
+                  <input class="impMedio"type="text" name="TxtPreco" id="TxtPreco" readonly/></label>
+
+                  </fieldset>
+
+                  <label class="elemDir" for="total_valor">Total R$
+                    <input class="impMedio" name="TxtTotal" type="text" id="TxtTotal" readonly/></label>
+
+                  </fieldset>
+                  <div class="botoes">
+                    <input type="submit"  a href="Continuacao.html" value="Continuar"></a>
+                    <input type="reset" value="Limpar"/>
+                  </div>
+                </form>
+              </section>
+            </body>
+            </html>

@@ -1,0 +1,326 @@
+/*
+Conteúdo body
+*/
+header { display: block; 
+}
+
+nav { 
+	display: block;
+	border-top: 2px;
+	border-bottom: 2px;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-align: center;
+	font-family: "Stoke","Verdana","Liberation";
+	font-weight: bold;
+	
+}
+
+section { 
+	display: block;
+}
+
+body {
+	background-color: #DD7755;
+	color: #EEEE33;
+	font-family: "Stoke","verdana","liberation";
+	font-size: 16px;
+}
+
+/*Menu + Nav + botao*/
+
+.menu {
+    
+	margin: 3px auto;
+}
+
+.botao {
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	margin-left: 4px;
+	margin-right: 4px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	padding-right: 4px;
+	background-color: #FFFF00;
+	width: 100px;
+	display: inline-block;
+}
+/* links*/
+
+a:link {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #EE0000;
+}
+
+/*end links*/
+
+.ender {
+	text-align: right;
+	font-size: 15px;
+	line-height: 140%;
+	float: right;
+}
+
+.imgLogo {
+	position: left;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+}
+
+.apres {
+	text-align: center;
+	font-size: 18px;
+	position: center;
+}
+
+/*Moletons */
+
+.listaMoletons {
+	color: #880000;
+	background-color: #EEDD99;
+	padding: 10px 10px 10px 50px;
+	margin: 30px 10px 10px 10px;
+	border: 2px solid;
+	border-color: #000055;
+	line-height: 200%;
+	list-style-type: upper-roman;
+}
+
+ul {
+	color: #880000;
+	line-height: 200%;
+	list-style-type: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+.preco {
+	color: #EE0000;
+}
+
+p {
+	font-size: 20px;
+}
+
+/*Page Camisetas */
+
+.tabCamisa {
+	border-collapse: collapse solid;
+	color: #000066;
+	background-color: #EEDD99;
+	width: 96%;
+	font-family: "Arial", "Ubuntu";
+	text-transform: capitalize;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+
+th, td {
+	border: 2px solid;
+	border-color: #000055;
+	padding: 6px 12px 6px 12px;
+
+}
+
+.titulo {
+	color: #FFFF22;
+	background-color: #447799;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.linTH {
+	color: #FFFFFF;
+	background-color: #777777;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.colTH {
+	color: #FFFFFF;
+	background-color: #999999;
+	text-align: left;
+}
+
+.preco {
+	color: #EE0000;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*shopping*/
+
+form {
+	width: 580px;
+	color: #880000;
+	background-color: #EEDD99;
+	padding: 6px 6px 15px 6px;
+	margin: 10px auto;
+	border: 2px solid;
+	border-color: #000055;
+}
+
+.listaCompras {
+	width: 230px;
+	height: 230px;
+	float: right;
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.colLabSelProd {
+	width: 260px;
+	height: 40px;
+    float: left;
+}
+
+.colSelProd {
+	width: 160px;
+	float: right;
+}
+
+.linhaProdSel {
+	width: 240px;
+	margin-bottom: 6px;
+	float: left;
+}
+
+.elemEsq {
+	float: left;
+	display: block;
+}
+
+.elemDir {
+	float: right;
+	display: block;
+}
+
+.impMedio {
+    width: 80px;
+}
+
+.botoes {
+	text-align: right;
+	margin: 20px 10px 0px 10px;
+}
+
+
+/*Continuação*/
+
+.fsEsq {
+	float: left;
+	display: inline;
+	margin: 0px;
+}
+
+.fsDir {
+	float: right;
+	display: inline;
+	margin: 0px;
+}
+
+.inpGrande {
+	width: 440px;
+}
+
+.impNCC {
+	width: 130px;
+
+}
+
+.impTelef {
+	width: 90px;
+}
+
+.impEnder {
+	width: 200px;
+	height: 60px;
+}
+
+.numDD {
+	width: 30px;
+}
+
+.numQD {
+	width: 50px;
+}
+
+.divLinha {
+	width: 550px;
+	margin-bottom: 6px;
+}
+
+.colPri {
+	float: left;
+	display: block;
+	width: 90px;
+}
+
+.colPriCompras {
+	float: left;
+	display: block;
+	width: 86px;
+}
+
+.colPriPag {
+	float: left;
+	display: block;
+	width: 250px;
+}
+
+/*AD2-Inicio*/
+/*Moletom*/
+
+.Moleton_blusa {
+	width: 200px;
+	height: 200px;
+	border: solid 3px #226699;;
+	padding: 12px 12px 12px 12px;
+	background-color: white;
+}
+.formimgjs {
+		width: 300px;
+		background-color: #DD7755;
+		padding: 6px 6px 15px 12px;
+		margin: 10px auto;
+		float: center;
+		color: #FFFF00;
+}
+/* Camisas AD2 */
+.imgJan {
+	width: 70%;
+	height: 70%;
+	padding-left: 39px;
+}
+.tdimgcenter {
+	text-align: center;
+}
+
+/*Moletom AD2*/
+.inputback {
+	background-color: #DD7755;;
+	border: none;
+}
+.imgborder {
+	border: 2px solid;
+	border-color: #000066;
+}
+.colorprice {
+	color: #DD7755;
+	font-weight: bold;
+}

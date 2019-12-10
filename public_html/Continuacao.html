@@ -1,0 +1,98 @@
+<!doctype html>
+<hmtl lang="pt-br">
+  <head>
+		<meta charset="uft-8">
+		<title>Malharia Lhama</title>
+		<base target="_blank" />
+		<link rel="stylesheet" type="text/css" href="css/Malhama.css"/>
+	  <link href='https://fonts.googleapis.com/css?family=Stoke' rel='stylesheet'>
+	  <link href='https://fonts.googleapis.com/css?family=verdana' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=liberation' rel='stylesheet'>
+    <script language="javascript" type="text/javascript" src="js/estiloscontinuacao.js"></script>
+	</head>
+
+  <!--logo and address-->
+		
+	<body>
+		<header>
+		  <img class="imgLogo" src="Imagens/Malhama_Topo.png">
+		  <address class="ender">Avenida Cuzco, 123<br>Tel: (21) 91234-5678<br><a href="mailto:contato@malhama.com.br">contato@malhama.com.br</a></address>
+		</header>
+
+		<nav>
+		  <div class="menu">
+				<a href="Malhamahtml5.html" class = "botao"><b>INICIAL</b></a>
+				<a href="Moletons.html" class = "botao"><b>MOLETONS</b></a>
+				<a href="Camisetas.html" class = "botao"><b>CAMISETAS</b></a>
+				<a href="Compras.html" class = "botao"><b>COMPRAS</b></a>
+			</div>
+		</nav>
+
+    <section>
+      <form method="post">
+        <fieldset>
+          <legend>Identificação</legend>
+          <div class="divLinha">
+            <label class="colPri" for="nome">Nome:</label><input id="nome" type="text" name="nome" class="inpGrande" /><br>
+          </div>
+          <div class="divLinha">
+            <label class="colPri" for="email">E-mail:</label><input id="email" type="text" name="email" class="inpGrande" /><br>
+          </div>
+
+          <div>
+            <label class="colPri" for="end">Endereço:</label><input id="end" type="text" name="end" class="impEnder" />
+        <fieldset class="fsDir">
+          <legend>Genero</legend>
+            <label><input type="radio" name="Mas" />Mas</label>
+            <label><input type="radio" name="Fem" />Fem</label>
+            <label><input type="radio" name="Outro" />Outro</label>
+        </fieldset>
+          </div>
+          <div class="fsEsq">
+            <label class="colPri" for="tel">Telefone:</label><input onChange="VerificaTelef(this, 8);" id="tel" type="text" name="tel" class="impTelef" /><br>
+            <label class="colPri" for="cel">Celular:</label><input onChange="VerificaTelef(this, 9);" id="cel" type="text" name="cel " class="impTelef" />
+          </div>
+          <div class="fsDir">
+        <fieldset>
+          <legend>Nascimento</legend>
+            <input type="number" name="DiaVal" id="DiaVal" min="1" max="12" value="1" class="numDD" /> /
+              <input type="number" name="MesVal" id="MesVal" min="1" max="12" value="1" class="numDD" /> /
+              <input type="number" name="AnoVal" id="AnoVal" value="2019" min="1980" max="2050" class="numQD" />  
+        </fieldset>
+            </div><br><br><br>
+        <fieldset class="fsDir">
+          <legend>Pagamento</legend>
+            <textarea class="fsDir" cols="23" rows="14"></textarea>
+  
+        <fieldset class="fsEsq">
+          <legend>Cartao</legend>
+        <fieldset>
+          <legend>Bandeira</legend>
+                  	
+            <label><input type="radio" name="band" value="Visa" />Visa</label>
+            <label><input type="radio" name="band" value="Master" />Master</label>
+            <label><input type="radio" name="band" value="Master" />Elo</label>
+                
+        </fieldset>
+          </br>
+          <div>
+            <label class="colPriCompras" for="valid">Validade</label>
+              <input type="number" name="MesVal" id="MesVal" min="1" max="12" value="1" class="numDD" /> /
+              <input type="number" name="AnoVal" id="AnoVal" value="2019" min="1980" max="2050" class="numQD" />
+          </div>
+          </br>
+          <div>
+            <label for="num">Número:<input id="num" type="text" name="num" class="impNCC" /></label>
+          </div>
+        </fieldset>
+            <label class="colPriPag" for="valor">Valor R$</label><input id="valor" type="text" name="valor" class="impTelef" readonly />
+        </fieldset>
+          </br>
+          <div class="botoes">
+            <input class="impMedio" type="submit" name="enviar" value="Enviar"/>
+            <input class="impMedio" type="reset" name="limp" value="Limpar"/>
+          </div>
+      </form>
+    </section>
+                   
+                 
